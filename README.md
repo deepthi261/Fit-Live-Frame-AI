@@ -69,7 +69,7 @@ graph TD
 3.  Enter your **Neural Key** in the initialization vault.
 4.  Optionally, provide your own **GCS Sync URL** and **Sheets Endpoint** to audit your own private data streams.
 
-### Local Development
+### Local Development & Automated Deployment
 ```bash
 # Install Dependencies
 npm install
@@ -77,9 +77,18 @@ npm install
 # Launch Development Server
 npm run dev
 
-# Build Production Artifacts
-npm run build
+# 🚀 AUTOMATED DEPLOYMENT (GEMINI CHALLENGE BONUS)
+# The project includes a full 'Infrastructure-as-Code' deployment script
+# to automate the build, GAE deployment, and Cloud Function sync.
+bash deploy.sh
 ```
+
+---
+
+## 🏗️ Automated Deployment Proof
+The following file demonstrates the automated, one-touch deployment of our infrastructure:
+- **Automation Logic:** [deploy.sh](https://github.com/deepthi261/Fit-Live-Frame-AI/blob/main/deploy.sh) - This script handles the automated build of production artifacts and their synchronized deployment to Google App Engine and Cloud Functions.
+
 
 ---
 
