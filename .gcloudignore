@@ -1,0 +1,19 @@
+# Neural Deployment Optimizer: Ignore Source & Modules
+.git
+.gitignore
+.gcloudignore
+node_modules/
+src/
+public/
+gcs-proxy/
+*.md
+*.js
+*.ts
+*.tsx
+*.json
+Dockerfile
+nginx.conf
+
+# BUT: Do not ignore the deployment artifacts
+!app.yaml
+!dist/**

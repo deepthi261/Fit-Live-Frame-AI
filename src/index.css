@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+:root {
+  background-color: #050505;
+  color: #ffffff;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  /* Standard CSS Theme Variables */
+  --neon-cyan: #00f3ff;
+  --neon-glow: rgba(0, 243, 255, 0.4);
+  --deep-charcoal: #0a0a0b;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #050505;
+  color: #ffffff;
+  overflow: hidden;
+  height: 100%;
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
+
+.neon-cyan {
+  color: var(--neon-cyan);
+  text-shadow: 0 0 10px var(--neon-glow);
+}
+
+.neon-shadow {
+  box-shadow: 0 0 20px rgba(0, 243, 255, 0.2);
+}
+
+.neon-text {
+  text-shadow: 0 0 10px var(--neon-glow);
+}
+
+.scan-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--neon-cyan);
+  box-shadow: 0 0 15px 2px var(--neon-cyan);
+  animation: scan 3s linear infinite;
+  opacity: 0.7;
+}
+
+.animate-spin-slow {
+  animation: spin 3s linear infinite;
+}
+
+.bg-premium-glow {
+  background: radial-gradient(circle at center, #1a1a1c 0%, #0a0a0b 100%);
+}
+
+@keyframes scan {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(400%);
+  }
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(0, 243, 255, 0.1);
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 243, 255, 0.3);
+}
