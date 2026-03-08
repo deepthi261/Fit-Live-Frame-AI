@@ -52,7 +52,7 @@ graph TD
 ---
 
 ## 🛠️ Technical Stack
-- **AI Backend:** Google Generative AI (Gemini 1.5 Flash)
+- **AI Backend:** Google Generative AI (Gemini 1.5/3.0 Flash) with Gemini API key in built.
 - **Cloud Infrastructure:** Google Cloud Platform (App Engine, Cloud Functions, GCS)
 - **Frontend Architecture:** React 19, TypeScript, Vite
 - **Motion & UI:** Framer Motion, Lucide React, Tailwind CSS
@@ -108,4 +108,4 @@ This repository contains the full implementation of the **Fit-Live-Frame-AI Agen
 All code is provided under the MIT License for the **Gemini Agent AI Challenge**.
 
 ---
-*Developed by Deepthi - Powered by Gemini AI & Google Cloud.*
+*Developed by Deepthi Thotakura - Powered by Gemini AI & Google Cloud.*
