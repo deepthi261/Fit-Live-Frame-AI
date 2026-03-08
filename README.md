@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="public/neural_logo.png" width="200" alt="Fit-Live-Frame-AI Logo">
+</p>
+
 # 🛰️ Fit-Live-Frame-AI: Neural Vault Edition
 ### *Official Submission for the Gemini Agent AI Challenge*
 

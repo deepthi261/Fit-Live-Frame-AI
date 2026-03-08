@@ -35,9 +35,12 @@ export default function StatsConsole({ aiData, onFinish, onShowHistory }: StatsC
         <div className="w-full h-full glass-panel rounded-2xl p-6 flex flex-col gap-4 overflow-y-auto scrollbar-hide border border-white/5 shadow-2xl relative select-none">
             {/* HUD Header */}
             <div className="flex justify-between items-center mb-2">
-                <div>
-                    <h1 className="text-3xl font-black italic tracking-tighter text-white leading-none uppercase">FIT LIVE FRAME AI</h1>
-                    <p className="text-[10px] font-bold text-[#00f3ff] uppercase tracking-widest mt-1 opacity-60 italic">SHADOW MENTOR V3.0 | SESSION {dailyCount}</p>
+                <div className="flex items-center gap-4">
+                    <img src="/neural_logo.png" alt="Neural Logo" className="w-12 h-12 rounded-xl border border-[#00f3ff]/20 shadow-[0_0_15px_rgba(0,243,255,0.2)]" />
+                    <div>
+                        <h1 className="text-3xl font-black italic tracking-tighter text-white leading-none uppercase">FIT LIVE FRAME AI</h1>
+                        <p className="text-[10px] font-bold text-[#00f3ff] uppercase tracking-widest mt-1 opacity-60 italic">SHADOW MENTOR V3.0 | SESSION {dailyCount}</p>
+                    </div>
                 </div>
                 <div className="flex items-center gap-2">
                     <button
