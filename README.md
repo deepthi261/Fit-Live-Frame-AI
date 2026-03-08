@@ -69,6 +69,24 @@ graph TD
 3.  Enter your **Neural Key** in the initialization vault.
 4.  Optionally, provide your own **GCS Sync URL** and **Sheets Endpoint** to audit your own private data streams.
 
+---
+
+## 🧪 How to Test for Judges
+To evaluate the **Fit-Live-Frame-AI Agent**, please follow this high-fidelity workflow:
+
+1.  **Launch the Link**: Open the [Live Application](https://fit-neural-vault.uc.r.appspot.com) and enter your Gemini API Key.
+2.  **Neural Calibration**: Grant camera permissions. You will see the **Shadow Mentor V3.0** initialize on the right-side HUD.
+3.  **Perform Movements**: Stand back so your full body is visible. Perform a few **Squats**, **Bicep Curls**, or **Pushups**.
+    - Watch the **Predicted Activity** HUD update in real-time as the Gemini 1.5 Flash agent classifies your movement.
+    - Monitor the **Precision Meter** as it audits your form symmetry.
+    - Listen for **Voice Feedback** providing metabolic and postural coaching.
+4.  **Audit the Vault**: Once finished, click **"Finish Session & Submit"**. 
+    - This triggers the **Infinity Protocol**, handshaking with our Google Cloud Function to vault your performance data securely to Google Cloud Storage.
+    - You will receive a **Shadow Report** summarizing your biomechanical precision and session metrics.
+
+---
+
+
 ### Local Development & Automated Deployment
 ```bash
 # Install Dependencies
