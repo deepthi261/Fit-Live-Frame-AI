@@ -54,7 +54,7 @@ export class GeminiLiveClient {
                 temperature: 0.1,
                 // responseMimeType: "application/json", // Removed for v1/v1beta universal compatibility
             }
-        }, { apiVersion: 'v1' });
+        }, { apiVersion: 'v1beta' });
     }
 
     setCallback(callback: (data: any, rawText?: string) => void) {

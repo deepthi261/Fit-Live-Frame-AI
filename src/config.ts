@@ -5,8 +5,8 @@
  */
 
 export const NEURAL_CONFIG = {
-    // 🧠 The "Brain" - Gemini 1.5 API Key (REDACTED FOR SECURITY)
-    GEMINI_API_KEY: "",
+    // 🧠 The "Brain" - Gemini 1.5 API Key
+    GEMINI_API_KEY: "AIzaSyAaJjXr_L1LVlCqi7BGso1baD5iEUizSZA",
 
     // 🌊 The "Sync Agent" - Cloud Function URL
     GCS_SYNC_URL: "https://us-central1-fit-neural-vault.cloudfunctions.net/gcsSync",
