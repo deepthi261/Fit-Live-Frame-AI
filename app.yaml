@@ -2,12 +2,17 @@ runtime: python312
 instance_class: F1
 
 handlers:
-  # Static assets with caching
+  # 🎨 Neural Branding: Serve root static files (logos, etc)
+  - url: /([^/]+\.(png|ico|json|svg|txt))$
+    static_files: dist/\1
+    upload: dist/[^/]+\.(png|ico|json|svg|txt)$
+
+  # ⚡ Infinity Assets: Core JS/CSS bundles
   - url: /assets
     static_dir: dist/assets
     expiration: "30d"
 
-  # All other routes go to index.html (SPA support)
+  # 🛰️ Neural Hub: SPA Catch-all
   - url: /.*
     static_files: dist/index.html
     upload: dist/index.html
